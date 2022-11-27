@@ -7,9 +7,9 @@ git clone $1 student-submission
 cd student-submission
 if[[-e "ListExamples.java" ]]
 then
-    echo "ListExamples.java found! full credit!"
+    echo "ListExamples.java found, full credit!"
 else
-    echo "ListExamples.java is missing! no credit."
+    echo "ListExamples.java is missing, no credit."
 fi
 logout
 cp GradeServer.java Server.java TestListExamples.java student-submission
